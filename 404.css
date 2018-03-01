@@ -1,0 +1,24 @@
+body {
+	background-color: #222222;
+
+	color: #d2e37e;
+
+	text-align: center;
+
+	font-family: arial;
+	font-size: 204px;
+	font-weight: 900;
+}
+
+body::after {
+	content: 'PAGE NOT FOUND';
+
+	color: #e7415ee6;
+
+	position: relative;
+
+	top: -200px;
+
+	font-size: 36px;
+	font-weight: 100;
+}
